@@ -6,87 +6,65 @@ export const siteConfig = {
   social: {
     email: "esantee@clemson.edu",
     linkedin: "https://www.linkedin.com/in/ethan-santee-141517387",
-    //twitter: "https://x.com/rfitzio",
     github: "https://github.com/EthanSantee",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Hi! I'm a Computer Science undergraduate at Clemson University who enjoys turning ideas into working code. I've built projects in Python, Java, C, and C++, ranging from games to AI-powered tools. I enjoy tackling edge cases and complex logic, and I frequently participate in hackathons. Alongside my projects, I work as a teaching assistant, helping students debug code and understand core programming concepts.",
+  skills: ["Python", "C/C++", "Java", "Javascript", "React", "Node.js", "Git/GitHub"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "AI File Organizer",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A smart file organization tool built during Clemson’s 24-hour hackathon that uses AI to reduce manual file cleanup. The system analyzes file names, content, and file types to group related files and automatically organize them into folders. The project uses a Python-based Flask backend that integrates the Google Gemini API for file classification, along with a React frontend for the user interface.",
+      link: "chrome://dino",
+      skills: ["Python", "Gemini", "Flask", "React", "Node.js", "Git"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Othello",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "",
+      link: "chrome://dino",
+      skills: ["Java", "JUnit", "Git"],
     },
     {
-      name: "ExtensionKit",
+      name: "FTC Robot",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "",
+      link: "chrome://dino",
+      skills: ["Java"],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Clemson School of Computing",
+      title: "Undergraduate Teaching Assistant",
+      dateRange: "Aug 2025 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Supported over 100 students by assisting with debugging, and answering conceptual questions",
+        "Developed multiple autograders to streamline the process of student grading",
+        "Led lab sessions for Clemson's introductory C/C++ course and Python course covering the fundamentals of object-oriented programming",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Clemson Creative Inquiry",
+      title: "Undergraduate Research Assistant",
+      dateRange: "Jan 2025 - Present",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "",
+        "",
+        "",
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
+      school: "Clemson University",
       degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      dateRange: "2024 - 2027",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
+        "Current 3.93 GPA",
         "Dean's List all semesters",
-        "President of Computer Science Club",
       ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
+    }
   ],
 };
